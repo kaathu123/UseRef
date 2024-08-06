@@ -1,0 +1,67 @@
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    background: url('http://m.gettywallpapers.com/wp-content/uploads/2023/12/Cute-Desktop-Wallpaper.jpg')  center center fixed;
+    background-size: cover;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+                rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+                rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 20px;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.6); /* Semi-transparent white background */
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.box {
+    border-radius: 10px;
+    width: 450px;
+    height: 50px;
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 5px;
+   
+}
+.box::placeholder{
+ padding-left: 10px;
+ font-size: 17px;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.button {
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+                rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+    width: 465px;
+    margin-left:  55px;
+    background-color: pink;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: violet;
+}
+
+.heading {
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
